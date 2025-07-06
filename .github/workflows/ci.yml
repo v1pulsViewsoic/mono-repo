@@ -31,10 +31,10 @@ jobs:
           echo "Updated image tag in $VALUES_FILE"
           cat $VALUES_FILE
 
-      # - name: Commit changes
-      #   run: |
-      #     git config user.name "GitHub Actions"
-      #     git config user.email "actions@github.com"
-      #     git add $VALUES_FILE
-      #     git commit -m "chore: bump image tag for $APP_FOLDER to ${{ inputs.new_image_tag }}"
-      #     git push
+      - name: Commit changes
+        run: |
+          git config user.name "Vipul"
+          git config user.email "vipul81kumar@gmail.com"
+          git add $VALUES_FILE
+          git commit -m "chore: bump image tag for $APP_FOLDER to ${{ inputs.new_image_tag }}"
+          git push
