@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/v1pulsViewsoic/mono-repo.git'
     targetRevision: main
-    path: app
+    path: app2
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
