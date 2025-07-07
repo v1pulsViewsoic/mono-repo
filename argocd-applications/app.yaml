@@ -9,7 +9,6 @@ metadata:
     argocd-image-updater.argoproj.io/nginx.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-branch: main
-
     # ✅ Add these for Helm mapping
     argocd-image-updater.argoproj.io/nginx.helm.image-name: image.repository
     argocd-image-updater.argoproj.io/nginx.helm.tag-name: image.tag
