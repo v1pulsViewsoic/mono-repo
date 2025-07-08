@@ -4,5 +4,5 @@ helm:
     value: ekstest/mono-repo
     forcestring: true
   - name: image.tag
-    value: 1.1.2
+    value: 1.1.3
     forcestring: true
